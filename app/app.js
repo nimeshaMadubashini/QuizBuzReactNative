@@ -11,12 +11,14 @@ const Stack = createNativeStackNavigator();
 
 function App() {
   return (
-       <Stack.Navigator initialRouteName="Splash" screenOptions={{contentStyle:{backgroundColor:'white'}}} >
+    <NavigationContainer>
+        <Stack.Navigator initialRouteName="Splash" screenOptions={{contentStyle:{backgroundColor:'white'}}} >
         <Stack.Screen name="Splash" component={pageOne} />
         <Stack.Screen name="Home" component={pageTwo} />
         <Stack.Screen name="Score" component={score} />
-
       </Stack.Navigator>
+    </NavigationContainer>
+     
      
   );
 }

@@ -10,14 +10,14 @@ export const reactQuestions = [
         correctAnswer: "To build user interfaces"
     },
     {
-        question: "Which method is used to create components in React?",
+        question: "Which of the following is a way to handle data in React.js ?",
         options: [
-            "createComponent()",
-            "makeComponent()",
-            "createElement()",
-            "createNode()"
+            "State & Props",
+            "Services & Components",
+            "State & Services",
+            "State & Components"
         ],
-        correctAnswer: "createElement()"
+        correctAnswer: "State & Props"
     },
     {
         question: "What is the virtual DOM?",

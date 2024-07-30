@@ -4,7 +4,7 @@ import tw from 'twrnc';
 
 const PageOne = ({ navigation }) => {
   return (
-    <View style={tw`flex-1 items-center`}>
+    <View style={[tw`flex-1 items-center `,{justifyContent:'center'}]}>
       <Image
         source={require("../../assets/images/pageoneimg.png")}
         style={{ height: 344, width: '100%' }}
@@ -25,7 +25,7 @@ const PageOne = ({ navigation }) => {
       </View>
       <View style={tw`flex justify-center items-center w-full`}>
         <Pressable
-          onPress={() => navigation.navigate('Home')}
+          onPress={() => navigation.navigate('Quections')}
           style={tw`bg-orange-500 p-2 mt-4 rounded text-center w-25`}
         >
           <Text style={tw`text-white text-lg text-center`}>START</Text>
